@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="origin" fetch="https://github.com/cognitiv/"/>
+   <default revision="master" remote="origin" sync-j="4"/>
+   <project path="vesta" name="vesta.git"/>
+   <project path="lynx" name="lynx.git"/>
+
+   <remote name="temp" fetch="https://github.com/spolyakov-cognitiv/"/>
+   <project path="cmake" name="cmake.git" remote="temp"/>
+</manifest>
