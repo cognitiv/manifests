@@ -5,7 +5,8 @@
    <project path="vesta" name="vesta.git" revision="master" sync-s="true"/>
    <project path="lynx" name="lynx.git" sync-s="true"/>
    <project path="continuum" name="continuum" sync-s="true"/>
-   <project path="framework-cpp" name="framework-cpp" revision="cognicache-2.1.4" sync-s="true"/>
+   <project path="framework-cpp" name="framework-cpp.git" revision="cognicache-2.1.4" sync-s="true"/>
+   <project path="umbra" name="umbra.git" revision="master" sync-s="true"/>
 
    <remote name="personal" fetch="ssh://git@github.com/spolyakov-cognitiv/"/>
    <project path="cmake" remote="personal" name="cmake.git"/>
